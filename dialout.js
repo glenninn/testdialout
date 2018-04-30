@@ -83,7 +83,7 @@ function makeSIPCall(pcResults){
 	dialoutRecSIP.uri = dialTo;
 	
 	auth.post(apihost,makeOutdialPSTN,dialoutRecSIP).then( (doResults)=>{
-		console.log("\nSuccess! Kicked-off --SIP-- outdial to: " + dialoutRecPSTN.phoneNumber);
+		console.log("\nSuccess! Kicked-off --SIP-- outdial to: " + dialoutRecSIP.uri);
 		
 	}, (doErrors) => {
 		console.log("\n?Error:  unable to make dialout: " + JSON.stringify(doErrors,null,2) );
