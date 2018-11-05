@@ -28,7 +28,7 @@ var getMtgAccessTokenRec =
 {
   grant_type : "meeting_passcode",
   meetingNumericId : "",
-  meetingPasscode : ""
+  meetingPasscode : "8751"
 };
 
 var pairCodeRec = {
