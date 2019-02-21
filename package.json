@@ -4,8 +4,13 @@
   "description": "test program to make BJN dialout to an endpoint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node dialout.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+	"url" : "https://github.com/glenninn/testdialout.git"
+  },
+  "author": "Glenn Inn <glenninn@yahoo.com>",
   "license": "ISC"
 }
